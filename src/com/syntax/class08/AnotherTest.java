@@ -1,6 +1,6 @@
-package com.syntax.class07;
+package com.syntax.class08;
 
-public class HW {
+public class AnotherTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
