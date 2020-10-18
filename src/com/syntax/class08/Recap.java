@@ -19,8 +19,10 @@ public class Recap {
 		while(money!=waterPrice) {
 			if (money>waterPrice) {
 				System.out.println("This is too much, please enter less money");
+				money=input.nextInt();
 			}else {
 				System.out.println("Water is expsensive, please insert more money");
+				money=input.nextInt();
 			}
 		}
 			System.out.println("Enjoy your water");
