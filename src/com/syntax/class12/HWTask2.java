@@ -8,7 +8,7 @@ public class HWTask2 {
 
 		// Write a java program to check whether a given number is prime or not?
 
-		int check;
+		
 		boolean prime = true;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number");
@@ -16,7 +16,7 @@ public class HWTask2 {
 		int num = input.nextInt();
 
 		for (int i = 2; i <= num / 2; i++) {
-			check = num % i;
+			int check = num % i;
 			if (check == 0) {
 				prime = false;
 			}
