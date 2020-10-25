@@ -14,6 +14,8 @@ public class HWTask2 {
 		System.out.println("Enter a number");
 
 		int num = input.nextInt();
+		
+		if (num>1) {
 
 		for (int i = 2; i <= num / 2; i++) {
 			int check = num % i;
@@ -21,7 +23,9 @@ public class HWTask2 {
 				prime = false;
 			}
 		}
-
+		}else {
+			prime=true;
+		}
 		if (prime)
 			System.out.println(num + " is a Prime Number");
 		else
