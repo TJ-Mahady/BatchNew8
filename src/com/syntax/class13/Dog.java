@@ -9,7 +9,7 @@ public class Dog {
     String color;
     String name;
 
-    void bark(){
+    public void bark(){
         System.out.println("Dog barks");
     }
     void play(){
